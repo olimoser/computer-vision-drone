@@ -36,7 +36,8 @@ We are writing a project diary to document our progress and what we have learned
 
 * Tobias Schaber 
 * Raphael Manke 
-* Michael Plümacher 
+* Michael Plümacher
+* Andrey Skorikov
 * Oli Moser (https://twitter.com/moseroli)
 
 ### Communication
