@@ -34,6 +34,8 @@ The HC-SR04 is a very cheap ultrasonic sensor with a nice distance. Here is how 
 
 <img src="../media/hc_sr_04.jpg" width=450 title="HC-SR04 Ultrasonic Sensor">
 
+It's not really tiny and it might become a challenge to mount some of them on our drone but we are sure 
+that we will get it done.
 
 
 
