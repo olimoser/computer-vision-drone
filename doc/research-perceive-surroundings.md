@@ -15,4 +15,25 @@ and such in our team, and this working package was perfectly suitable for parall
 it as one of our first steps.
 
 
+## Finding a suitable sensor type
+
+We found that there are basically two different groups of sensors which could fit our needs:
+
+- Acoustic sensors (ultrasonic)
+- Optical sensors ()like infrared or lasers)
+
+They differ significantly in price and capabilities. For example, most infrared sensors are useable for 
+small or middle distances (30cm - 150cm). We also found some laser sensors, but their price was always more
+than 100€ per unit.
+The solution for us was the very cheap HC-SR04 ultrasonic sensor. With a price of less than 3 € per unit and
+a distance range of 2cm up to ~ 300cm, it is perfectly suitable for our drone to find out what's upfront.
+
+## The HC-SR04 ultrasonic sensor
+
+The HC-SR04 is a very cheap ultrasonic sensor with a nice distance. Here is how it looks like:
+
+![header](../media/hc_sr_04.jpg)
+
+
+
 
