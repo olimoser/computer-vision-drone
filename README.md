@@ -28,6 +28,15 @@ We are writing a project diary to document our progress and what we have learned
 
 ## Project Team, communication and Dev Environment
 
+### Team
+
+* Tobias Schaber 
+* Raphael Manke 
+* Michael Plümacher 
+* Oli Moser (https://twitter.com/moseroli)
+
+### Communication
+
 * communication via slack channel
 * ToDos in trello.com
 * sketching diagrams and mindmapping on sketchboard.io
