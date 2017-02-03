@@ -6,6 +6,8 @@ Finding the right drone is not a trivial task. Our requirements were:
 * Open APIs 
 * able to carry a Raspberry Pi
 * able to integrate with OpenCV
+* stable flight characteristics
+* indoor usable (limited in size, speed, agility)
 * ...
 
 We discussed our needs with a drone building expert. The recommendations were:
