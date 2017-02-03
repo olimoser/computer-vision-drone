@@ -10,6 +10,7 @@ This is a fun project to build an interactive drone.
 * that has distance sensors
 * that has audio in and output
 
+first [Mindmap and Vision](media/Teamboard%20CV%20Drone.png)
 
 [![A flight through our office](http://img.youtube.com/vi/rimVxTH05QE/0.jpg)](http://www.youtube.com/watch?v=rimVxTH05QE)
 
@@ -45,10 +46,10 @@ We work at [codecentric](https://www.codecentric.de/) in Karlsruhe and Hamburg, 
 ### Communication
 
 * communication via slack channel
-* ToDos in trello.com
-* sketching diagrams and mindmapping on sketchboard.io
+* ToDos in (https://trello.com/b/EyBRidZB/cv-drone)
+* sketching diagrams and mindmapping on (https://sketchboard.me/rzUofJAoRqtE)
 * sources and documentation here on github
-* videos on youtube channel
+* videos on youtube channel (https://www.youtube.com/channel/UC_r-M-0JQZUnOG2gJSL9pfg)
 
 
 
