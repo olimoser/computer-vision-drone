@@ -35,7 +35,7 @@ We are writing a project diary to document our progress and what we have learned
 ### Team
 
 We work at codecentric in Karlsruhe Germany. codecentric encourages every employee to start 
-their own projects and we have one day per week to work on them ... We are hiring ;)
+innovative projects and we have one day per week to work on them ... We are hiring ;)
 
 * Tobias Schaber 
 * Raphael Manke 
