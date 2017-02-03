@@ -4,9 +4,10 @@ Finding the right drone is not a trivial task. Our requirements were:
 
 * moderate pricing (max. 1000 EUR)
 * Open APIs 
-* able to carry a Raspberry Pi
+* able to carry a Raspberry Pi or similar
 * able to integrate with OpenCV
-* ...
+* indoor usable (limited in size, speed, agility)
+* stable flight characteristics
 
 We discussed our needs with a drone building expert. The recommendations were:
 
