@@ -10,6 +10,10 @@ This is a fun project to build an interactive drone.
 * that has distance sensors
 * that has audio in and output
 
+
+[![A flight through our office](http://img.youtube.com/vi/rimVxTH05QE/0.jpg)](http://www.youtube.com/watch?v=rimVxTH05QE)
+
+
 The drone should be able to ...
 
 * navigate inside a room and detect obstacles 
