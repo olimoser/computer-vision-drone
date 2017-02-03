@@ -1,5 +1,7 @@
 # Computer Vision Drone
 
+![header](media/header2.png)
+
 ## Goal
 
 This is a fun project to build an interactive drone. 
