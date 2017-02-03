@@ -32,7 +32,8 @@ a distance range of 2cm up to ~ 300cm, it is perfectly suitable for our drone to
 
 The HC-SR04 is a very cheap ultrasonic sensor with a nice distance. Here is how it looks like:
 
-![header](../media/hc_sr_04.jpg)
+<img src="../media/hc_sr_04.jpg" width=450 title="HC-SR04 Ultrasonic Sensor">
+
 
 
 
