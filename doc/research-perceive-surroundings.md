@@ -38,3 +38,22 @@ delay. The acoustic velocity is approximately known, so the distance is calculab
 
 
 ## The hardware setup
+
+For our drone, we start with a setup of 4 sensors on a Raspberry Pi. At the beginning we have enough free GPIO pins,
+so we start without experimenting on bus systems like SPI or I2C. 
+
+The HC-SR04 has four pins to connect:
+- VCC (5V power supply)
+- Trigger (incoming signal will start measurement)
+- Echo (outgoing signal will provide the result of the measurement)
+- Ground
+
+We connected the trigger and echo pins to any free GPIO pins on our Pi, and came to this result:
+
+<img src="../media/ultrasonic_sketch.jpg" title="HC-SR04 ultrasonic sensor" width=600>
+
+You can see that we created 4 4-Pin connectors where we can plug in the ultrasonic sensors and one 8-pin connector 
+for the connection to the PI. The resistors are needed to bring down the voltage of the echo pin from 5V to 3.3V.
+
+
+
