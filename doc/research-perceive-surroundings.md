@@ -67,7 +67,10 @@ exhausted.
 
 Finally, let's have a short look at our python script. Here it is:
 
-** script **
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 As you can see, we connected the pins as follows to the Pi:
 
