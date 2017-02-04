@@ -30,7 +30,7 @@ a distance range between 2cm and ~300cm and a low weight, it is perfectly suitab
 No, the HC-SR04 is not the smallest sensor and we might have some trouble mounting it on our drone. But we are 
 sure that we get this solved. Here is how the sensor looks like:
 
-<img src="../media/hc_sr_04.jpg" title="HC-SR04 ultrasonic sensor" width=450>
+![HC-SR04 ultrasonic sensor](../media/hc_sr_04_small.jpg)
 
 The functional principle is easy to explain: The sensor is equipped with a loudspeaker and a microphone. If it 
 is triggered, it sends out an acoustic signal and then listens if and when the signal returns and measures this 
@@ -50,7 +50,7 @@ The HC-SR04 has four pins to connect:
 
 We connected the trigger and echo pins to any free GPIO pins on our Pi, and came to this result:
 
-<img src="../media/ultrasonic_sketch.jpg" title="HC-SR04 ultrasonic sensor" width=600>
+![HC-SR04 ultrasonic sensor](../media/ultrasonic_sketch_small.jpg)
 
 You can see that we created 4 4-Pin connectors where we can plug in the ultrasonic sensors and one 10-pin connector 
 for the connection to the PI. The resistors are needed to bring down the voltage of the echo pin from 5V to 3.3V.
