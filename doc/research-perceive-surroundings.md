@@ -30,7 +30,7 @@ a distance range between 2cm and ~300cm and a low weight, it is perfectly suitab
 No, the HC-SR04 is not the smallest sensor and we might have some trouble mounting it on our drone. But we are 
 sure that we get this solved. Here is how the sensor looks like:
 
-![header](../media/hc_sr_04.jpg)
+<img src="../media/hc_sr_04.jpg" title="HC-SR04 ultrasonic sensor" width=450>
 
 The functional principle is easy to explain: The sensor is equipped with a loudspeaker and a microphone. If it 
 is triggered, it sends out an acoustic signal and then listens if and when the signal returns and measures this 
