@@ -52,7 +52,7 @@ We connected the trigger and echo pins to any free GPIO pins on our Pi, and came
 
 <img src="../media/ultrasonic_sketch.jpg" title="HC-SR04 ultrasonic sensor" width=600>
 
-You can see that we created 4 4-Pin connectors where we can plug in the ultrasonic sensors and one 8-pin connector 
+You can see that we created 4 4-Pin connectors where we can plug in the ultrasonic sensors and one 10-pin connector 
 for the connection to the PI. The resistors are needed to bring down the voltage of the echo pin from 5V to 3.3V.
 
 
