@@ -68,8 +68,70 @@ exhausted.
 Finally, let's have a short look at our python script. Here it is:
 
 ```python
-s = "Python syntax highlighting"
-print s
+import time
+import RPi.GPIO as GPIO
+
+triggerPins =   [10, 23, 27, 17]
+echoPins =      [9,  24, 22, 18]
+
+# function to measure the distance
+def measureDistance(gpioTrigger, gpioEcho):
+
+    # set trigger to high
+    GPIO.output(gpioTrigger, True)
+
+    # set trigger after 10µs to low
+    time.sleep(0.00001)
+    GPIO.output(gpioTrigger, False)
+
+    # store initial start time
+    startTime = time.time()
+
+    # store start time
+    while GPIO.input(gpioEcho) == 0:
+      startTime = time.time()
+
+    # store stop time
+    while GPIO.input(gpioEcho) == 1:
+      stopTime = time.time()
+
+    # calculate distance
+    timeElapsed = stopTime - startTime
+    distance = (timeElapsed * 34300) / 2
+
+    return distance
+
+def main():
+
+  try:
+    while True:
+
+      for idx in xrange(0, len(triggerPins)):
+          distance = measureDistance(triggerPins[idx], echoPins[idx])
+          print("Measured Distance for sensor " + str(idx) + " == %.1f cm" % distance)
+      print("----------------------------------------")
+      time.sleep(0.3)
+
+  # reset GPIO settings if user pressed Ctrl+C
+  except KeyboardInterrupt:
+    print("Measurement stopped by user")
+    GPIO.cleanup()
+
+if __name__ == '__main__':
+  # use GPIO pin numbering convention
+  GPIO.setmode(GPIO.BCM)
+
+  # set up GPIO pins
+  for t in triggerPins:
+    GPIO.setup(t, GPIO.OUT)
+
+    # set trigger to false
+    GPIO.output(t, False)
+
+  for t in echoPins:
+    GPIO.setup(t, GPIO.IN)
+
+  main()
 ```
 
 As you can see, we connected the pins as follows to the Pi:
