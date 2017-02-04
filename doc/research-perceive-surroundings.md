@@ -1,10 +1,8 @@
-
 # Basic Research: Perception of the drones surroundings
 
-One of the first work package was to find out how to enable the drone to perceive its surroundings.
+One of the first work package was to find out how to enable the drone to perceive its surrounding.
 
-![header](../media/header_resistor.jpg)
-
+![header](media/header_resistor.jpg)
 
 ## Basic considerations
 
@@ -14,29 +12,29 @@ some basic distance sensors on a micro-controller. We already have some experien
 and such in our team, and this working package was perfectly suitable for parallel work, so we started with
 it as one of our first steps.
 
-
 ## Finding a suitable sensor type
 
 We found that there are basically two different groups of sensors which could fit our needs:
 
 - Acoustic sensors (ultrasonic)
-- Optical sensors ()like infrared or lasers)
+- Optical sensors (like infrared or lasers)
 
 They differ significantly in price and capabilities. For example, most infrared sensors are useable for 
 small or middle distances (30cm - 150cm). We also found some laser sensors, but their price was always more
 than 100€ per unit.
-The solution for us was the very cheap HC-SR04 ultrasonic sensor. With a price of less than 3 € per unit and
-a distance range of 2cm up to ~ 300cm, it is perfectly suitable for our drone to find out what's upfront.
+The solution for us was the very cheap HC-SR04 ultrasonic sensor. With a price of less than 3€ per unit, 
+a distance range between 2cm and ~300cm and a low weight, it is perfectly suitable for our drone to find out what's upfront.
 
 ## The HC-SR04 ultrasonic sensor
 
-The HC-SR04 is a very cheap ultrasonic sensor with a nice distance. Here is how it looks like:
+No, the HC-SR04 is not the smallest sensor and we might have some trouble mounting it on our drone. But we are 
+sure that we get this solved. Here is how the sensor looks like:
 
-<img src="../media/hc_sr_04.jpg" width=450 title="HC-SR04 Ultrasonic Sensor">
+![header](media/hc_sr_04.jpg)
 
-It's not really tiny and it might become a challenge to mount some of them on our drone but we are sure 
-that we will get it done.
+The functional principle is easy to explain: The sensor is equipped with a loudspeaker and a microphone. If it 
+is triggered, it sends out an acoustic signal and then listens if and when the signal returns and measures this 
+delay. The acoustic velocity is approximately known, so the distance is calculable.
 
 
-
-
+## The hardware setup
