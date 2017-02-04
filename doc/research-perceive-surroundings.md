@@ -2,7 +2,7 @@
 
 One of the first work package is to find out how to enable the drone to perceive its surrounding.
 
-![header](media/header_resistor.jpg)
+![header](../media/header_resistor.jpg)
 
 ## Basic considerations
 
